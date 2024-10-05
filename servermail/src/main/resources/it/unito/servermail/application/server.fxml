@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #85C1E9;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unito.servermail.controller.ServerController">
+   <children>
+      <VBox prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #5DADE2;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="BASELINE_CENTER" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #85C1E9;" text="Server Logs" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="logsArea" editable="false" prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: #85C1E9;" wrapText="true">
+               <padding>
+                  <Insets bottom="2.5" left="2.5" right="2.5" />
+               </padding>
+            </TextArea>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
